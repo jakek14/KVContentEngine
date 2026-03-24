@@ -30,6 +30,17 @@ This is the content brain for KnownVisitors' X/Twitter presence. Every post live
 - Be relatable — reference real situations business owners face
 - Links go in replies, never in the main post
 
+## Content Philosophy
+
+Every post should live in the WORLD that KnownVisitors operates in — marketing, traffic, data, ads, retargeting, website optimization, SaaS growth, lead generation, privacy, analytics. The content builds trust and authority in the exact space where KnownVisitors exists.
+
+### Mentioning KnownVisitors
+- ~80% of posts: pure value, no mention of KnownVisitors. Just helpful, smart takes.
+- ~20% of posts (roughly 1 in 5): naturally mention KnownVisitors or what it does. NOT a hard pitch — more like "this is why I built KnownVisitors" or "we see this with our users" or "this is exactly the problem we solve." Organic, like a founder referencing their own experience.
+- Check the last 5 posts. If any of the last 4 mentioned KnownVisitors, do NOT mention it.
+- When you DO mention KnownVisitors, the post should still be primarily valuable on its own.
+- Track this with `mentions_kv: true|false` in frontmatter.
+
 ## Content Pillars (Rotate These)
 
 ### Core Product Pillars
