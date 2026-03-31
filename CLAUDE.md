@@ -401,6 +401,8 @@ Good: a recognizable scene that tells a story at a glance — a laptop showing a
 - **Abstract/vague visuals** — flowing data streams, network nodes, connection maps, geometric shapes. These look like generic stock art and communicate nothing.
 - **Text in the image** — Nano Banana garbles text. Text goes in the overlay, not the AI image.
 - Realistic human faces or photos — use silhouettes or stylized figures instead
+- **Different colored silhouettes** — all silhouettes must be the SAME color/shade (dark gray or green). Never render silhouettes in different skin tones or contrasting colors that could be interpreted as racial. Use glow effects, contact cards, or outlines to differentiate identified vs anonymous — NOT color differences on the figures themselves.
+- **Off-center focal points** — the key visual (the identified visitor, the reveal moment, the main concept) must be centered in the image, not pushed to the side
 - Busy, cluttered compositions — keep it clean and minimal
 - Bright/colorful palettes — stay dark and moody, on-brand
 - Logos — don't ask AI to render the KV logo
