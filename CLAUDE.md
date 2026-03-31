@@ -368,12 +368,19 @@ Meta posts are cross-posted: same post goes to both Facebook and Instagram. Ever
 
 The image prompt goes into the `## Visual Prompt` section of the draft. It will be fed into Nano Banana to generate the image.
 
+### Image Dimensions & Safe Zones
+- **Aspect ratio**: 4:5 (portrait) — this is the optimal format for both Facebook and Instagram feed. Takes up maximum screen space on mobile.
+- **Resolution**: 1080 x 1350 pixels
+- **Instagram grid safe zone**: Instagram displays grid previews at 3:4. Keep the core visual within the center of the image so nothing important gets cropped in the grid view.
+- **Text overlay safe zone**: Keep all text overlay within the center ~70% of the image. Leave the top 14%, bottom 35%, and sides 6% clear of critical text/visuals — Instagram overlays UI elements (profile icon, CTA buttons) in these areas.
+- **Always include in the prompt**: "4:5 aspect ratio, 1080x1350 pixels, portrait orientation"
+
 ### KV Brand Rules for Image Prompts
 Every image prompt MUST include these brand elements:
 - **Color palette**: Black background, green (#27A848) accents, white highlights
 - **Aesthetic**: Dark, modern, premium tech — think SaaS dashboard, developer tool landing page
 - **Mood**: Confident, clean, minimal, high-contrast
-- **Style direction**: Always include "dark tech aesthetic, black background, green accent lighting, minimal, high contrast, modern SaaS visual"
+- **Style direction**: Always include "dark tech aesthetic, black background, green accent lighting, minimal, high contrast, modern SaaS visual, 4:5 portrait aspect ratio"
 
 ### What Works Well (prompt for these)
 - Abstract data visualizations — flowing data streams, network nodes, connection maps
@@ -381,6 +388,7 @@ Every image prompt MUST include these brand elements:
 - Geometric compositions — clean shapes, gradients, dark-to-green transitions
 - Conceptual scenes — magnifying glass over website traffic, spotlight revealing hidden visitors
 - Bold graphic backgrounds that pair with a text overlay
+- Keep the center of the image relatively clean for the text overlay
 
 ### What to Avoid (never prompt for these)
 - **Text in the image** — Nano Banana garbles text. Text goes in the overlay, not the AI image.
@@ -388,12 +396,14 @@ Every image prompt MUST include these brand elements:
 - Busy, cluttered compositions — keep it clean and minimal
 - Bright/colorful palettes — stay dark and moody, on-brand
 - Logos — don't ask AI to render the KV logo
+- Important visual elements near the edges — they'll get cropped in grid view or covered by UI
 
 ### Text Overlay
 The `## Text Overlay` section contains the headline/subtitle to be manually placed on top of the generated image. Keep it short and impactful:
 - **Headline**: 3-8 words, bold claim or stat
 - **Subtitle** (optional): One line of supporting context
 - Text overlay should be in white or green on the dark background
+- **Position the text in the center ~70% of the image** — avoid top 14%, bottom 35%, and sides 6% where Instagram overlays UI elements
 
 ## Meta Draft File Format
 Save to `meta/company/drafts/` as `YYYY-MM-DD-HHMM-SS.md`
