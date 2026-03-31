@@ -413,9 +413,10 @@ AI image generators (Nano Banana) produce unpredictable results with complex pro
 
 ### Text Overlay
 The `## Text Overlay` section contains the headline/subtitle to be manually placed on top of the generated image. Keep it short and impactful:
-- **Headline**: 3-8 words, bold claim or stat
-- **Subtitle** (optional): One line of supporting context
-- Text overlay should be in white or green on the dark background
+- **Font**: Inter (matches KnownVisitors website branding)
+- **Headline**: 3-8 words, bold claim or stat. Inter Bold or Inter Black.
+- **Subtitle** (optional): One line of supporting context. Inter Regular or Inter Medium.
+- Text overlay should be in white or green (#27A848) on the dark background
 - **Position the text in the center ~70% of the image** — avoid top 14%, bottom 35%, and sides 6% where Instagram overlays UI elements
 
 ## Meta Draft File Format
