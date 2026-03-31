@@ -111,6 +111,14 @@ Before writing a new post, ALWAYS:
 4. Check what topics/angles were used recently (don't repeat within 2 weeks)
 5. Find a FRESH angle tied to current events
 
+### Duplicate Detection — READ THIS CAREFULLY
+Two posts count as duplicates if they share the same CORE IDEA, even if they use different stats, different framing, or different wording. Examples of duplicates:
+- "97% of visitors leave without converting" and "98% of traffic bounces" — SAME IDEA (anonymous traffic waste)
+- "You don't know who's on your site" and "Visitors leave without filling out a form" — SAME IDEA (invisible visitors)
+- "CAC is rising" and "Ad costs are up 60%" — SAME IDEA (acquisition getting expensive)
+
+Before writing, identify the ONE SENTENCE core idea of your post. Then check if ANY recent post (last 2 weeks, across ALL pages) shares that core idea. If it does, pick a completely different topic — not a different stat on the same topic.
+
 ---
 
 # X/TWITTER-SPECIFIC RULES
