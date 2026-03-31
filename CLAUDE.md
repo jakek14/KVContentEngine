@@ -1,7 +1,7 @@
 # KnownVisitors Content Engine
 
 ## What This Repo Is
-This is the content brain for KnownVisitors' social presence across X/Twitter and LinkedIn, for both the founder (CEO) and company accounts. Every post lives here — from draft to published. The daily agent reads this repo to avoid repeating topics, angles, or phrasing across platforms and accounts.
+This is the content brain for KnownVisitors' social presence across X/Twitter, LinkedIn, and Meta (Facebook + Instagram), for both the founder (CEO) and company accounts. Every post lives here — from draft to published. The daily agent reads this repo to avoid repeating topics, angles, or phrasing across platforms and accounts.
 
 ## Repo Structure
 ```
@@ -19,6 +19,13 @@ linkedin/
   company/drafts/      — KnownVisitors company page drafts
   company/published/   — posted company LinkedIn content
   company/archive/     — rejected/old company LinkedIn content
+meta/
+  founder/drafts/      — CEO's Facebook/Instagram drafts
+  founder/published/   — posted CEO Meta content
+  founder/archive/     — rejected/old CEO Meta content
+  company/drafts/      — KnownVisitors brand Meta drafts
+  company/published/   — posted brand Meta content
+  company/archive/     — rejected/old brand Meta content
 ```
 
 ## About KnownVisitors
@@ -307,11 +314,112 @@ source_url: "URL if applicable"
 
 ---
 
+# META-SPECIFIC RULES (Facebook + Instagram)
+
+Meta posts are cross-posted: same post goes to both Facebook and Instagram. Every Meta post includes an image. The agent generates both the caption and a Nano Banana image prompt.
+
+**Meta posts are less frequent than X and LinkedIn** — not every daily run needs a Meta post. Generate Meta posts only when specifically requested or when the content is highly visual and well-suited to the format.
+
+## Meta Founder Voice
+- Personal, founder-led — same as X and LinkedIn founder voice
+- Uses "I" voice
+- More visual storytelling — the image carries weight, caption complements it
+- Can be shorter than LinkedIn — the image does half the work
+
+## Meta Company Voice
+- Uses "we" voice
+- Authoritative brand presence
+- Product-focused content works well here — announcements, stat cards, industry visuals
+- Still human, not corporate
+
+## Meta Caption Sizing
+- **Short** (target: ≤ 150 characters): Punchy line that pairs with a strong image. Works best on Instagram.
+- **Medium** (target: 150–500 characters): Developed thought with hook and closing line.
+- **Long** (target: 500–1,000 characters): Deeper context, mini-story. Better for Facebook than Instagram.
+
+**Hard rules:**
+- Every Meta post MUST include an image prompt — no text-only posts.
+- Hook must be in the first line — Instagram truncates after ~125 characters.
+- 3-5 hashtags at the end (important for Instagram discovery).
+
+## Meta KV Mention Rules
+- **Founder pages**: 80/20 ratio (same as other platforms)
+- **Company pages**: 60/40 ratio (same as other platforms)
+
+## Image Prompt Guidelines — KnownVisitors Brand Style
+
+The image prompt goes into the `## Visual Prompt` section of the draft. It will be fed into Nano Banana to generate the image.
+
+### KV Brand Rules for Image Prompts
+Every image prompt MUST include these brand elements:
+- **Color palette**: Black background, green (#27A848) accents, white highlights
+- **Aesthetic**: Dark, modern, premium tech — think SaaS dashboard, developer tool landing page
+- **Mood**: Confident, clean, minimal, high-contrast
+- **Style direction**: Always include "dark tech aesthetic, black background, green accent lighting, minimal, high contrast, modern SaaS visual"
+
+### What Works Well (prompt for these)
+- Abstract data visualizations — flowing data streams, network nodes, connection maps
+- Stylized website/dashboard mockups with anonymous visitor silhouettes
+- Geometric compositions — clean shapes, gradients, dark-to-green transitions
+- Conceptual scenes — magnifying glass over website traffic, spotlight revealing hidden visitors
+- Bold graphic backgrounds that pair with a text overlay
+
+### What to Avoid (never prompt for these)
+- **Text in the image** — Nano Banana garbles text. Text goes in the overlay, not the AI image.
+- Realistic human faces or photos — use silhouettes or abstract figures instead
+- Busy, cluttered compositions — keep it clean and minimal
+- Bright/colorful palettes — stay dark and moody, on-brand
+- Logos — don't ask AI to render the KV logo
+
+### Text Overlay
+The `## Text Overlay` section contains the headline/subtitle to be manually placed on top of the generated image. Keep it short and impactful:
+- **Headline**: 3-8 words, bold claim or stat
+- **Subtitle** (optional): One line of supporting context
+- Text overlay should be in white or green on the dark background
+
+## Meta Draft File Format
+Save to `meta/founder/drafts/` or `meta/company/drafts/` as `YYYY-MM-DD-HHMM-SS.md`
+
+```markdown
+---
+date: YYYY-MM-DD
+platform: meta
+page: [founder|company]
+status: draft
+pillar: [problem-awareness|reframe|hot-take|proof|founder-journey|saas-advice|bootstrapping|raising-money|vibe-coding|free-game|industry-commentary|founder-takes]
+format: [short|medium|long]
+mentions_kv: [true|false]
+source: "Brief description of the news/trend that inspired this"
+source_url: "URL if applicable"
+---
+
+## Post
+
+[Caption text for Facebook/Instagram]
+
+[3-5 hashtags at the end]
+
+## Visual Prompt
+
+[Nano Banana image prompt — describes the background visual. Include KV brand style direction. NO text in the image.]
+
+## Text Overlay
+
+Headline: [3-8 word headline to place on the image]
+Subtitle: [Optional one-line subtitle]
+
+## Context
+
+[Why this topic was chosen, what's happening in the news]
+```
+
+---
+
 # GENERAL WORKFLOW
 
 ### Creating Drafts
 - Search the web for current news/trends in marketing, e-commerce, SaaS, privacy, ad tech, startup funding, AI/vibe coding, bootstrapping, and general business
-- Check ALL four page folders (`x/founder/`, `x/company/`, `linkedin/founder/`, `linkedin/company/`) to avoid repeating topics
+- Check ALL page folders (`x/founder/`, `x/company/`, `linkedin/founder/`, `linkedin/company/`, `meta/founder/`, `meta/company/`) to avoid repeating topics
 - Write a post tied to something REAL happening right now
 - Generate posts for the requested page(s) — different angles on the same topic, or different topics entirely
 - Save to the appropriate platform/page folder
