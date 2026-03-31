@@ -24,11 +24,42 @@ This is the content brain for KnownVisitors' X/Twitter presence. Every post live
 - Use "I" not "we" — personal founder voice
 - Short sentences. One idea per line. Line breaks between thoughts.
 - No hashtags, no emojis, no "excited to announce"
-- No product pitching — never say "KnownVisitors" or "check out our tool" in posts
+- No product pitching — never say "check out our tool" in posts
+- **Hook first** — the opening line is everything. It must stop the scroll. Lead with a surprising stat, a bold claim, a contrarian take, or a pattern interrupt. Weak openers like "I was thinking about..." or "Here's something interesting..." kill reach.
 - End with a strong last line (people screenshot the last line)
 - Be slightly provocative — challenge norms, call out BS
 - Be relatable — reference real situations business owners face
 - Links go in replies, never in the main post
+- **Never fabricate stories or anecdotes.** No "I had coffee with a founder who..." unless it actually happened. Use hypothetical framing instead: "Imagine a founder with $40k MRR..." or "Picture this..." or frame it as a general observation. Truthfulness is non-negotiable.
+
+### Hook Formulas That Work
+Use these as inspiration, not templates. Rotate and adapt:
+- **Stat bomb**: "92% of B2B buyers already have a vendor in mind." (number-first grabs attention)
+- **Contrarian**: "SEO is rented traffic. Always was."
+- **Curiosity gap**: "Most founders get this wrong about churn."
+- **Pattern interrupt**: One surprising word or short phrase, then a line break.
+- **Bold claim**: "Your website traffic is worthless if you can't identify it."
+- **Story hook (hypothetical only)**: "Picture this: $40k MRR, profitable, growing 15% MoM — and every VC says 'come back later.'"
+
+## Character Limits & Post Sizing
+X has a 280-character limit per tweet (X Premium allows longer, but don't assume it).
+
+- **Short** (target: ≤ 200 characters): Punchy one-liners, hot takes, bold claims. High engagement ceiling. Aim for these often.
+- **Medium** (target: ≤ 280 characters): A complete thought with a hook and a punchline. Must fit in one tweet.
+- **Thread** (3-7 tweets, each ≤ 280 characters): For deeper stories, breakdowns, or multi-point takes. Structure: hook tweet → 3-5 value tweets → closing tweet with a soft CTA. Each tweet should stand on its own — someone might only see tweet 1 or get shown tweet 4.
+- **Question** (target: ≤ 200 characters): Engagement-focused. Ends with a genuine question that invites replies.
+
+**Hard rule**: Every single tweet (whether standalone or part of a thread) MUST be ≤ 280 characters. Count before saving. If it's over, cut it down — don't cheat with abbreviations.
+
+## Engagement & Soft CTAs
+Replies carry **13.5x more algorithmic weight** than likes on X. Posts that generate conversation get dramatically more reach.
+
+- ~30% of posts should end with a **genuine question** or **soft CTA** that invites replies
+- Good: "What's the worst marketing advice you've ever followed?" / "Curious — how are you handling this?"
+- Good: "Bookmark this if you're dealing with the same thing."
+- Bad: "Like if you agree, RT if you disagree" — this is engagement bait and X actively penalizes it
+- Bad: "Comment YES for a free guide" — suppressed by the algorithm
+- The other ~70% should end with a strong closing line — no CTA needed. Not every post needs to ask something.
 
 ## Content Philosophy
 
@@ -75,6 +106,8 @@ Every post should live in the WORLD that KnownVisitors operates in — marketing
 date: YYYY-MM-DD
 status: draft
 pillar: [problem-awareness|reframe|hot-take|proof|founder-journey|saas-advice|bootstrapping|raising-money|vibe-coding|free-game|industry-commentary|founder-takes]
+format: [short|medium|thread|question]
+mentions_kv: [true|false]
 source: "Brief description of the news/trend that inspired this"
 source_url: "URL if applicable"
 ---
@@ -82,6 +115,19 @@ source_url: "URL if applicable"
 ## Post
 
 [The actual post text, ready to copy-paste to X]
+
+For threads, format as:
+
+**Tweet 1**
+[Hook tweet — ≤ 280 chars]
+
+**Tweet 2**
+[Value tweet — ≤ 280 chars]
+
+...
+
+**Tweet N**
+[Closing tweet, optional soft CTA — ≤ 280 chars]
 
 ## Context
 
