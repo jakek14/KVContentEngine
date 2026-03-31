@@ -382,17 +382,25 @@ Every image prompt MUST include these brand elements:
 - **Mood**: Confident, clean, minimal, high-contrast
 - **Style direction**: Always include "dark tech aesthetic, black background, green accent lighting, minimal, high contrast, modern SaaS visual, 4:5 portrait aspect ratio"
 
+### Clarity Rule — THE MOST IMPORTANT RULE
+**A person scrolling their feed should instantly understand what the image is about WITHOUT reading the caption.** If the visual requires explanation, it's too abstract. The image must communicate the concept on its own.
+
+Bad: abstract data streams, floating wireframes, geometric shapes with glowing dots — these look like generic tech graphics and mean nothing to a viewer.
+
+Good: a recognizable scene that tells a story at a glance — a laptop showing anonymous visitors becoming identified contacts, a split-screen before/after, a dashboard revealing real visitor names.
+
 ### What Works Well (prompt for these)
-- Abstract data visualizations — flowing data streams, network nodes, connection maps
-- Stylized website/dashboard mockups with anonymous visitor silhouettes
-- Geometric compositions — clean shapes, gradients, dark-to-green transitions
-- Conceptual scenes — magnifying glass over website traffic, spotlight revealing hidden visitors
-- Bold graphic backgrounds that pair with a text overlay
+- **Before/after scenes** — left side: shadowed/anonymous figures on a website. Right side: clear profile cards with names, emails, job titles revealed. Instantly communicates "we identify visitors."
+- **Recognizable dashboards** — a laptop or phone screen showing a notification: "New visitor identified: [name]" with a contact card appearing. People understand dashboards.
+- **Split-screen reveals** — blurred/hidden visitor on one side, fully identified contact on the other. Clear visual metaphor.
+- **Relatable business scenes** — a website with a magnifying glass revealing a visitor's identity card. Simple, recognizable.
+- **Stat-focused backgrounds** — clean dark background designed to support bold text overlay. Simple gradient or subtle pattern. The text does the work.
 - Keep the center of the image relatively clean for the text overlay
 
 ### What to Avoid (never prompt for these)
+- **Abstract/vague visuals** — flowing data streams, network nodes, connection maps, geometric shapes. These look like generic stock art and communicate nothing.
 - **Text in the image** — Nano Banana garbles text. Text goes in the overlay, not the AI image.
-- Realistic human faces or photos — use silhouettes or abstract figures instead
+- Realistic human faces or photos — use silhouettes or stylized figures instead
 - Busy, cluttered compositions — keep it clean and minimal
 - Bright/colorful palettes — stay dark and moody, on-brand
 - Logos — don't ask AI to render the KV logo
