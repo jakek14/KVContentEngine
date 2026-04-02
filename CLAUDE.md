@@ -64,6 +64,13 @@ meta/
 - Use hypothetical framing instead: "Imagine a founder with $40k MRR..." or "Picture this..." or frame it as a general observation.
 - Truthfulness is non-negotiable across ALL pages and platforms.
 
+### Tone & Authority
+- We are the **upper echelon of knowledge** in this space. Every post should make the reader think "oh wait, that's a really good point."
+- **Never punch up, correct, or one-up** other founders or thought leaders. Don't say "X is half right" or "Actually, here's what they got wrong." That looks like we're trying to get attention by picking fights.
+- When responding to another post or article: **agree, validate, and extend.** Add depth. Add a layer most people aren't seeing. Build on their point — don't tear it down.
+- The reader should associate our accounts with insight and depth, not hot takes and contrarianism for its own sake.
+- Be the person in the room who makes everyone else think harder — not the person who argues with the speaker.
+
 ### Hooks
 - **Hook first** — the opening line is everything on BOTH platforms. It must stop the scroll.
 - Lead with a surprising stat, a bold claim, a contrarian take, or a pattern interrupt.
