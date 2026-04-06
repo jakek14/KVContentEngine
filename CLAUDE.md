@@ -1,7 +1,7 @@
 # KnownVisitors Content Engine
 
 ## What This Repo Is
-This is the content brain for KnownVisitors' social presence across X/Twitter, LinkedIn, and Meta (Facebook + Instagram), for both the founder (CEO) and company accounts. Every post lives here — from draft to published. The daily agent reads this repo to avoid repeating topics, angles, or phrasing across platforms and accounts.
+This is the content brain for KnownVisitors' social presence across X/Twitter, LinkedIn, Meta (Facebook + Instagram), and the weekly blog/newsletter, for both the founder (CEO) and company accounts. Every post lives here — from draft to published. The daily agent reads this repo to avoid repeating topics, angles, or phrasing across platforms and accounts.
 
 ## Repo Structure
 ```
@@ -23,6 +23,10 @@ meta/
   company/drafts/      — KnownVisitors brand Meta drafts (Facebook + Instagram)
   company/published/   — posted brand Meta content
   company/archive/     — rejected/old brand Meta content
+blog/
+  drafts/              — Weekly blog/newsletter drafts (CEO voice)
+  published/           — Published blog posts
+  archive/             — Rejected/old blog posts
 ```
 
 ## About KnownVisitors
@@ -486,11 +490,72 @@ Subtitle: [Optional one-line subtitle]
 
 ---
 
+# BLOG/NEWSLETTER RULES (Weekly — Wednesdays Only)
+
+The KnownVisitors blog is a weekly long-form piece written in the CEO's personal voice. Think RB2B's newsletter — founder-led, opinionated, deep dives into topics the social posts only scratch the surface of. This is where the CEO builds real authority.
+
+**Schedule**: Generate one blog draft every Wednesday only. Do NOT generate blog posts on other days.
+
+## Blog Voice
+- **"I" voice** — personal, founder-led, same as the founder social pages but deeper and more nuanced
+- Conversational but substantive — like a smart email from a founder you respect
+- Can be vulnerable, opinionated, contrarian — this is where the CEO's personality comes through most
+- More storytelling than social posts — set scenes, build arguments, take the reader on a journey
+- Still no fabricated stories — hypothetical framing only. Truthfulness is non-negotiable.
+
+## Blog Structure & Length
+- **Target length**: 800–2,000 words (2-5 minute read)
+- **Title**: Compelling, curiosity-driven. Think "You can't vibe code Hubspot" not "Thoughts on AI in SaaS." The title should make someone click from a newsletter subject line.
+- **Subtitle**: One sentence that adds context or creates more curiosity
+- **Opening**: Hook the reader in the first 2-3 sentences. Start with a story, a bold claim, or a surprising stat. Never start with throat-clearing ("In today's rapidly evolving landscape...").
+- **Body**: Build the argument with a mix of insight, data, and personal perspective. Use subheadings to break up long sections. Short paragraphs (2-3 sentences max). Line breaks between ideas.
+- **Closing**: End with a strong takeaway — something the reader will remember or act on. Not a CTA to buy KnownVisitors. The closing should land like the last line of a great social post.
+
+## Blog Content Rules
+- **KV mention ratio**: Same as founder pages — 80/20. Most blog posts should be pure value with no KV mention. ~1 in 5 can naturally reference KnownVisitors.
+- **Topic depth**: Blog posts go DEEPER than social posts. If a social post says "CAC is up 60%," the blog post explains why, what it means, and what smart companies are doing about it.
+- **Timeliness**: Tied to current events, trends, or recent industry shifts — but the blog post adds layers of analysis the news article didn't.
+- **Pillar rotation**: Use the same content pillars as social, but blog posts lean heavier into: SaaS Advice, Industry Commentary, Founder Takes, Free Game, Reframes. Less emphasis on short hot takes or problem awareness (those work better as social posts).
+- **No duplicate angles**: Check recent social posts across ALL platforms AND recent blog posts. The blog should cover a DIFFERENT angle than what was posted on social that week.
+
+## Blog Draft File Format
+Save to `blog/drafts/` as `YYYY-MM-DD-HHMM-SS.md`
+
+```markdown
+---
+date: YYYY-MM-DD
+platform: blog
+status: draft
+pillar: [problem-awareness|reframe|hot-take|proof|founder-journey|saas-advice|bootstrapping|raising-money|vibe-coding|free-game|industry-commentary|founder-takes]
+mentions_kv: [true|false]
+source: "Brief description of the news/trend that inspired this"
+source_url: "URL if applicable"
+---
+
+## Title
+
+[Compelling, curiosity-driven title]
+
+## Subtitle
+
+[One sentence — context or additional hook]
+
+## Post
+
+[Full blog post text — 800-2,000 words]
+
+## Context
+
+[Why this topic was chosen, what's happening in the news]
+```
+
+---
+
 # GENERAL WORKFLOW
 
 ### Creating Drafts
 - Search the web for current news/trends in marketing, e-commerce, SaaS, privacy, ad tech, startup funding, AI/vibe coding, bootstrapping, and general business
-- Check ALL page folders (`x/founder/`, `x/company/`, `linkedin/founder/`, `linkedin/company/`, `meta/company/`) to avoid repeating topics
+- Check ALL page folders (`x/founder/`, `x/company/`, `linkedin/founder/`, `linkedin/company/`, `meta/company/`, `blog/`) to avoid repeating topics
 - Write a post tied to something REAL happening right now
 - Generate posts for the requested page(s) — different angles on the same topic, or different topics entirely
 - Save to the appropriate platform/page folder
