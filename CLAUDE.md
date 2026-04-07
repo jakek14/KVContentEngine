@@ -12,6 +12,9 @@ x/
   company/drafts/      — KnownVisitors brand X drafts
   company/published/   — posted brand X content
   company/archive/     — rejected/old brand X content
+  jake/drafts/         — Jake's personal X drafts
+  jake/published/      — posted Jake X content
+  jake/archive/        — rejected/old Jake X content
 linkedin/
   founder/drafts/      — CEO's LinkedIn drafts
   founder/published/   — posted CEO LinkedIn content
@@ -59,9 +62,27 @@ blog/
 - **KV mentions feel like**: "We built KnownVisitors because..." / "Our users see this every day" / "Here's how visitor identification changes the game" — brand authority, not hard pitch
 - **Never say**: "excited to announce" / "we're thrilled" / corporate buzzwords
 
+### Jake's X Page (Jake's personal X account)
+- **Who Jake is**: 21 years old, has been involved with KnownVisitors since the beginning. Part of a small bootstrapped team building KV. Heavy AI user — built the KV website (first in Cursor, then Antigravity, now uses Claude Code for editing). Creates marketing assets with Nano Banana. Started in marketing doing manual spreadsheet work and creating Canva ads, now builds AI-powered systems and workflows. Believes knowing how to correctly use AI is a critical skill — not just throwing random prompts at ChatGPT.
+- **Voice**: "I" — authentic, direct, learning-in-public energy. Not a guru. Not flexing. A 21-year-old showing real work and real growth.
+- **Tone**: Builder sharing the journey. Honest about the grind, the learning curve, the wins and the struggles of building a real company at 21.
+- **KV mention ratio**: **70/30** — KV is central to Jake's story. He's building it. But most posts should be about the craft, the AI tools, the marketing insights — not a pitch.
+- **Content pillars for Jake**:
+  1. **Building KV** — what it's like being part of a small bootstrapped team growing a SaaS company at 21. The real work, not the glamor.
+  2. **AI as a skill** — how to actually use AI tools effectively in real workflows. Claude Code, Nano Banana, Cursor, Antigravity — real applications, not hype.
+  3. **Marketing evolution** — from manual spreadsheets to AI-powered workflows. How AI changed what's possible for a small team.
+  4. **SaaS growth** — things Jake is learning about building, marketing, and scaling a product
+  5. **Young builder takes** — perspective on work, learning, the gap between education and building something real
+  6. **Bootstrapping** — what it means to build without massive funding. Small team, big ambitions, AI as the force multiplier.
+- **KV mentions feel like**: "We're building KnownVisitors with a tiny team and AI is how we keep up" / "I built the KV website using Cursor and then rebuilt it in Antigravity" / "Working on KV taught me that..."  — Jake referencing his real experience building the company.
+- **Key framing**: Jake is NOT the only one building. KV is a small bootstrapped TEAM. Jake uses "we" when talking about the company and "I" when talking about his personal work/learning.
+- **NEVER mention**: The automated content engine, scheduled agents, this system, or the fact that posts are AI-generated. This must remain completely invisible.
+- **NEVER mention Jake's age.** Do not say "I'm 21" or reference his age in any post. Let the work speak for itself.
+- **Follow ALL X-specific rules** (character limits, formats, hooks, engagement, etc.) from the X section below.
+
 ---
 
-## Shared Rules (All 4 Pages)
+## Shared Rules (All Pages)
 
 ### Truthfulness
 - **Never fabricate stories or anecdotes.** No "I had coffee with a founder who..." or "One of our customers told us..." unless it actually happened.
@@ -93,7 +114,8 @@ Use these as inspiration, not templates. Rotate and adapt:
 Every post should live in the WORLD that KnownVisitors operates in — marketing, traffic, data, ads, retargeting, website optimization, SaaS growth, lead generation, privacy, analytics.
 
 ### Mentioning KnownVisitors
-- **Founder pages**: ~80% pure value, ~20% mention KV. Check the last 5 posts — if any of the last 4 mentioned KV, do NOT mention it.
+- **Founder pages (CEO)**: ~80% pure value, ~20% mention KV. Check the last 5 posts — if any of the last 4 mentioned KV, do NOT mention it.
+- **Jake's X page**: ~70% pure value, ~30% mention KV. Check the last 5 posts — if any of the last 3 mentioned KV, do NOT mention it.
 - **Company pages**: ~60% pure value, ~40% mention KV. Check the last 5 posts — if any of the last 2 mentioned KV, do NOT mention it (avoid back-to-back).
 - When you DO mention KnownVisitors, the post should still be primarily valuable on its own.
 - Track this with `mentions_kv: true|false` in frontmatter.
@@ -555,7 +577,7 @@ source_url: "URL if applicable"
 
 ### Creating Drafts
 - Search the web for current news/trends in marketing, e-commerce, SaaS, privacy, ad tech, startup funding, AI/vibe coding, bootstrapping, and general business
-- Check ALL page folders (`x/founder/`, `x/company/`, `linkedin/founder/`, `linkedin/company/`, `meta/company/`, `blog/`) to avoid repeating topics
+- Check ALL page folders (`x/founder/`, `x/company/`, `x/jake/`, `linkedin/founder/`, `linkedin/company/`, `meta/company/`, `blog/`) to avoid repeating topics
 - Write a post tied to something REAL happening right now
 - Generate posts for the requested page(s) — different angles on the same topic, or different topics entirely
 - Save to the appropriate platform/page folder
