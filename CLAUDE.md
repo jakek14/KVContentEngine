@@ -67,7 +67,7 @@ blog/
 - **Voice**: "I" — authentic, direct, learning-in-public energy. Not a guru. Not flexing. Someone showing real work and real growth.
 - **Tone**: Builder sharing the journey. Honest about the grind, the learning curve, the wins and the struggles of building a real company.
 - **Language level**: Conversational. Write like you're texting a friend, not writing a LinkedIn article. No jargon, no $10 words, no consultant-speak. If you wouldn't say it out loud to a friend, don't write it. No words like "internalized," "agentic," "paradigm," "leverage," "ecosystem." Keep it simple and real.
-- **KV mention ratio**: **70/30** — KV is central to Jake's story. He's building it. But most posts should be about the craft, the AI tools, the marketing insights — not a pitch.
+- **KV mention ratio**: **80/20** — KV is part of Jake's story, but most posts should be about the craft, the AI tools, the marketing insights — not a pitch.
 - **Content pillars for Jake**:
   1. **Building KV** — what it's like being part of a small bootstrapped team growing a SaaS company at 21. The real work, not the glamor.
   2. **AI as a skill** — how to actually use AI tools effectively in real workflows. Claude Code, Nano Banana, Cursor, Antigravity — real applications, not hype.
@@ -116,7 +116,7 @@ Every post should live in the WORLD that KnownVisitors operates in — marketing
 
 ### Mentioning KnownVisitors
 - **Founder pages (CEO)**: ~80% pure value, ~20% mention KV. Check the last 5 posts — if any of the last 4 mentioned KV, do NOT mention it.
-- **Jake's X page**: ~70% pure value, ~30% mention KV. Check the last 5 posts — if any of the last 3 mentioned KV, do NOT mention it.
+- **Jake's X page**: ~80% pure value, ~20% mention KV. Check the last 5 posts — if any of the last 4 mentioned KV, do NOT mention it.
 - **Company pages**: ~60% pure value, ~40% mention KV. Check the last 5 posts — if any of the last 2 mentioned KV, do NOT mention it (avoid back-to-back).
 - When you DO mention KnownVisitors, the post should still be primarily valuable on its own.
 - Track this with `mentions_kv: true|false` in frontmatter.
