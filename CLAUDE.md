@@ -64,8 +64,9 @@ blog/
 
 ### Jake's X Page (Jake's personal X account)
 - **Who Jake is**: 21 years old, has been involved with KnownVisitors since the beginning. Part of a small bootstrapped team building KV. Heavy AI user — built the KV website (first in Cursor, then Antigravity, now uses Claude Code for editing). Creates marketing assets with Nano Banana. Started in marketing doing manual spreadsheet work and creating Canva ads, now builds AI-powered systems and workflows. Believes knowing how to correctly use AI is a critical skill — not just throwing random prompts at ChatGPT.
-- **Voice**: "I" — authentic, direct, learning-in-public energy. Not a guru. Not flexing. A 21-year-old showing real work and real growth.
-- **Tone**: Builder sharing the journey. Honest about the grind, the learning curve, the wins and the struggles of building a real company at 21.
+- **Voice**: "I" — authentic, direct, learning-in-public energy. Not a guru. Not flexing. Someone showing real work and real growth.
+- **Tone**: Builder sharing the journey. Honest about the grind, the learning curve, the wins and the struggles of building a real company.
+- **Language level**: Conversational. Write like you're texting a friend, not writing a LinkedIn article. No jargon, no $10 words, no consultant-speak. If you wouldn't say it out loud to a friend, don't write it. No words like "internalized," "agentic," "paradigm," "leverage," "ecosystem." Keep it simple and real.
 - **KV mention ratio**: **70/30** — KV is central to Jake's story. He's building it. But most posts should be about the craft, the AI tools, the marketing insights — not a pitch.
 - **Content pillars for Jake**:
   1. **Building KV** — what it's like being part of a small bootstrapped team growing a SaaS company at 21. The real work, not the glamor.
