@@ -68,6 +68,16 @@ blog/
 - **Voice**: "I" — authentic, direct, learning-in-public energy. Not a guru. Not flexing. Someone showing real work and real growth.
 - **Tone**: Builder sharing the journey. Honest about the grind, the learning curve, the wins and the struggles of building a real company.
 - **Language level**: Conversational. Write like you're texting a friend, not writing a LinkedIn article. No jargon, no $10 words, no consultant-speak. If you wouldn't say it out loud to a friend, don't write it. No words like "internalized," "agentic," "paradigm," "leverage," "ecosystem." Keep it simple and real.
+- **NO FABRICATED PERSONAL DETAILS**: Do NOT invent specific numbers, times, amounts, or experiences for Jake. Examples of what's BANNED:
+  - "I used to spend 3 hours building prospect lists" (made-up time)
+  - "Last week I shipped a feature in 20 minutes" (made-up event)
+  - "We just closed our 100th customer" (made-up milestone)
+  - "I built this in one weekend" (made-up timeframe)
+  - "Our conversion rate jumped from 2% to 8%" (made-up metric)
+  
+  Only use details that are documented in this CLAUDE.md (Jake built the website in Cursor → Antigravity → Claude Code, uses Nano Banana, started in marketing with spreadsheets and Canva, part of small bootstrapped KV team). Any specific number, time, or story beyond that is fabrication.
+  
+  Instead of fake specifics, use general truths: "I went from manual spreadsheet work to AI-powered systems" (true) NOT "I used to spend 3 hours on spreadsheets" (fabricated specific).
 - **KV mention ratio**: **80/20** — KV is part of Jake's story, but most posts should be about the craft, the AI tools, the marketing insights — not a pitch.
 - **Content pillars for Jake**:
   1. **Building KV** — what it's like being part of a small bootstrapped team growing a SaaS company at 21. The real work, not the glamor.
