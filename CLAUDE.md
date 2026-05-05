@@ -423,17 +423,20 @@ Meta posts are cross-posted: same post goes to both Facebook and Instagram. Ever
 - **Consistent posting cadence** — activity bursts followed by silence get penalized.
 
 ### What Meta Penalizes
-- **External links in post body** — massive reach reduction + 2-link monthly cap for non-verified pages
-- **Engagement bait** — "Tag 3 friends!" is explicitly penalized
-- **Over 5 hashtags on Instagram** — algorithmically suppressed
+- **External links in post body** — massive reach reduction. Meta is testing tighter link-posting limits for professional accounts/pages (TechCrunch, Dec 2025).
+- **Engagement bait** — 20-95% reach reduction with page-level penalty for repeat use. Banned phrasings (Meta Business Help, 2025): "Tag a friend who…", "LIKE if…", "COMMENT YES below", "SHARE with someone who…", "VOTE with a reaction…", "Drop a [X] below". Asking for genuine help/advice/recommendations is exempt.
+- **Cliffhanger / curiosity-gap hooks** — "Wait till you see #3" / "You won't believe what happened next" — Facebook algorithm specifically penalizes these as engagement bait. Avoid the pattern entirely since KV cross-posts to both FB and IG.
+- **Bullet symbols (•, –, ✓)** — Facebook strips them or renders them ugly. Use line breaks to separate items instead.
 - **Repetitive/low-quality content** — flagged as noise
 - **Identical cross-posts** — Meta's 2025 policy change penalizes "unoriginal" content, so identical posts across platforms can trigger reduced visibility
 
 ## Meta Engagement & CTAs
-- **Specific CTAs outperform generic ones by 3x.** Always end with a concrete ask.
-- Good: "Save this for your next QBR" / "Drop a question below — we'll answer every one"
-- Bad: "Let me know what you think" / "Like if you agree"
-- ~50% of posts should end with a specific CTA
+- **Specific saves-oriented CTAs beat generic ones.** Always end with a concrete ask.
+- Good: "Save this for your next QBR" / "Send this to the marketer on your team who needs it"
+- Borderline (avoid — reads as bait to Meta's classifier): "Drop a question below — we'll answer every one" / "Tell us in the comments"
+- Bad: "Let me know what you think" / "Like if you agree" / "Comment YES if…"
+- **Genuine open questions are exempt from bait penalty.** Asking for experience or perspective ("Curious how others handle this — what's worked for you?") drives long comments without triggering the engagement-bait classifier.
+- ~50% of posts should end with a specific saves/shares CTA or a genuine open question
 - **Reply to every comment within 1 hour** — doubles comment count and creates algorithmic momentum
 
 ## Image Prompt Guidelines — KnownVisitors Brand Style
