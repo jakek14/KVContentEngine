@@ -111,6 +111,55 @@ blog/
 - The reader should associate our accounts with insight and depth, not hot takes and contrarianism for its own sake.
 - Be the person in the room who makes everyone else think harder — not the person who argues with the speaker.
 
+### Voice — Avoid AI Fingerprints
+
+These posts must read as human-written. Avoid the patterns LLMs default to.
+Applies to **every channel** (X, LinkedIn, Meta, blog).
+
+**Banned characters** — use the ASCII alternatives, every time:
+- Em dash (—) → two hyphens (`--`), or rewrite the sentence.
+- En dash (–) → regular hyphen, or "to" ("2024 to 2026").
+- Smart/curly quotes (`""` `''`) → straight quotes (`"` `'`).
+- Ellipsis character (…) → three periods (`...`).
+- Non-breaking spaces → regular spaces.
+
+**Banned phrases** (opening sentences with these = instant AI smell):
+- "It's worth noting that..."
+- "Importantly,", "Notably,", "Interestingly," at sentence start.
+- "That said,", "Moreover,", "Furthermore,", "In essence,", "Ultimately,".
+- "This isn't just X. It's Y." (parallel-flip).
+- "Not just X, but Y."
+- "Let's dive in.", "Let's unpack this.", "Let's break it down."
+- "The deeper truth is...", "What this really means...", "At its core,..."
+
+**Banned/discouraged words** (overused AI tells):
+delve, navigate (non-physical), leverage, unprecedented, elevate, robust,
+seamless, vibrant, dynamic, groundbreaking, revolutionize, ensure, tapestry,
+intricate, paradigm, holistic, synergy.
+
+**Banned structures**:
+- Tricolon ("X, Y, and Z" with parallel rhythm) more than once per post.
+- "Topic sentence → three supporting points → restated conclusion" paragraph
+  pattern. Vary.
+- Section heading immediately followed by a one-sentence framing summary.
+  Open the section with a real sentence instead.
+- Closing each section with a one-line bolded "key takeaway."
+
+**Actively do this**:
+- **Mix sentence lengths chaotically.** One long. Next short. Then a fragment.
+  Then another long one.
+- **Start sentences with "But" and "And"** when it fits.
+- **One-word paragraphs are allowed.** Use sparingly. They land.
+- **Use contractions** (it's, don't, you're) — formal writing is itself an AI tell.
+- **Include one specific, slightly odd detail** per post — a real number that
+  isn't round ($9,247 not $9,000), a specific date, a named person who isn't
+  a placeholder.
+- **Cut the wind-up.** First sentence states a fact or makes a claim. No
+  "In today's rapidly evolving landscape..." preamble.
+
+**Voice anchor**: when in doubt, ask "Would Jake Kochberg actually phrase it
+this way in a LinkedIn post?" If not, rewrite.
+
 ### Hooks
 - **Hook first** — the opening line is everything on BOTH platforms. It must stop the scroll.
 - Lead with a surprising stat, a bold claim, a contrarian take, or a pattern interrupt.
